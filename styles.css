@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
 }
 h2 {
   font-size: 22px;
@@ -22,7 +23,7 @@ h2 {
   background-size: cover;
 }
 section {
-  height: 500px;
+  height: 550px;
   padding-bottom: 100px;
 }
 
@@ -38,6 +39,91 @@ section {
   background-color: DeepPink;
   border-radius: 5px;
   color: white;
-  /* margin: 5px; */
   padding: 2px 15px;
+}
+h1 {
+  font-size: 30px;
+}
+.right {
+  margin-left: 7%;
+}
+.biography-bg {
+  background-image: url(photo/biography-bg.png);
+  background-size: cover;
+  margin-bottom: 5%;
+  height: 600px;
+}
+.my-latest {
+  margin-top: 8%;
+  text-align: center;
+  font-size: 40px;
+}
+section {
+  height: 450px;
+}
+.photo {
+  float: left;
+  width: 30%;
+  margin: 15%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.work-1 {
+  height: 1%;
+  width: 1%;
+}
+.work-1 img {
+  height: 200px;
+  width: 300px;
+}
+.work-2 {
+  height: 1%;
+  width: 1%;
+}
+.work-2 img {
+  height: 200px;
+  width: 300px;
+}
+.work-3 {
+  height: 1%;
+  width: 1%;
+}
+.work-3 img {
+  height: 200px;
+  width: 300px;
+}
+.my-latest-work {
+  background-image: url(/photo/latest-work-bg.png);
+  background-size: cover;
+}
+.footer {
+  text-align: center;
+  font-size: 40px;
+}
+.bruce {
+  text-align: center;
+}
+.founder-bruce {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.last {
+  text-align: center;
+  border: 0.01 solid;
+  height: 120px;
+  width: 450px;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  background-image: linear-gradient(120deg, Plum, Violet);
+}
+footer {
+  background-image: url(photo/footer-bg.png);
+  background-size: cover;
+  height: 700px;
+}
+.footer-center {
+  text-align: center;
+  margin-top: 17%;
 }
